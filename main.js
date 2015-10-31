@@ -1,6 +1,3 @@
-var doc = document;
-console.log("load");
-$(function(){
-	var src = $('#resourceobject').attr("data");
-	location.href = src;
-});
+window.onload = function(){
+	location.href = document.getElementById('resourceobject').getAttribute('data');
+}
