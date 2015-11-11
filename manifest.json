@@ -17,8 +17,7 @@
     "content_scripts": [
         {
             "matches": ["https://moodle-cloud.ealps.shinshu-u.ac.jp/*/resource/view.php?id=*"],  // 拡張機能を適用するURLパターン
-            "js": ["main.js"],
-            "run_at": "document_start"
+            "js": ["main.js"]
         }
     ]
 }
