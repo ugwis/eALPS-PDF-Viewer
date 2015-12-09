@@ -1,0 +1,12 @@
+{
+  "title": "eALPS PDF Viewer",
+  "name": "ealps-pdf-viewer",
+  "version": "1.0.0",
+  "description": "信州大学eALPSのPDFを標準ビュワーで開く",
+  "main": "firefox.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": ""
+}
