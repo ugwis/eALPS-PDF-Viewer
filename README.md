@@ -14,3 +14,12 @@
 2. Firefoxを起動して about:addons を開く
 3. 歯車マークから「ファイルからアドオンをインストール」をクリック
 4. ダウンロードしたxpiファイルを開く
+
+## スマートフォンの場合
+https://gist.github.com/ugwis/03387b5844ddabc89aa4  
+1. 下記のスクリプトをブックマークに登録  
+2. PDFを開いている状態で作ったブックマークレットを開く  
+
+```
+javascript:var obj=document.getElementById('resourceobject');if(obj && obj.getAttribute('type')==='application/pdf'){location.replace(obj.getAttribute('data'));}
+```
